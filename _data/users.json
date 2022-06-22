@@ -1,0 +1,24 @@
+[
+  {
+    "_id": { "$oid": "62aefadf799a8b1ef45c36ac" },
+    "verify": true,
+    "role": "admin",
+    "name": "Nur",
+    "email": "smnideal@gmail.com",
+    "password": "$2b$10$FgenQXxkzvX5Lv14R/excOJpTEA1EuC3UM.33YbnN3YPhxeWEqXkW",
+    "uid": "58ZLP3",
+    "createdAt": { "$date": { "$numberLong": "1655634655601" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "62aefadf799a8b1ef45c36ac" },
+    "verify": true,
+    "role": "admin",
+    "name": "Nurujjaman",
+    "email": "skmdnurujjaman@gmail.com",
+    "password": "$2b$10$FgenQXxkzvX5Lv14R/excOJpTEA1EuC3UM.33YbnN3YPhxeWEqXkW",
+    "uid": "58ZLP3",
+    "createdAt": { "$date": { "$numberLong": "1655634655601" } },
+    "__v": { "$numberInt": "0" }
+  }
+]

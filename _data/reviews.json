@@ -1,0 +1,12 @@
+[
+  {
+    "_id": { "$oid": "62af5f8f3cae06110c845602" },
+    "title": "nice",
+    "text": "nice",
+    "rating": { "$numberInt": "5" },
+    "productId": { "$oid": "62af59fed1074d1544b3e7b7" },
+    "userId": { "$oid": "62aefadf799a8b1ef45c36ac" },
+    "createdAt": { "$date": { "$numberLong": "1655660431490" } },
+    "__v": { "$numberInt": "0" }
+  }
+]

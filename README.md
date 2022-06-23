@@ -2,7 +2,7 @@
 
 # Welcome to ShopTime! ✨
 
-**Project Link** - ***https://shoptime.herokuapp.com/***
+**Project Link** - ***https://itsshoptime.herokuapp.com/***
 
 ![screenshot](image/home.PNG)
 

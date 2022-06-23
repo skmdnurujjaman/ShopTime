@@ -63,7 +63,7 @@ const RegisterUser = asyncHandler(async (req, res, next) => {
   //   throw createError(500, "Verification email cound't be sent");
   // }
   try {
-    const newUser = await User.create({ ...req.body, uid: uid });
+    const newUser = await User.create({ ...req.body, verify: true, uid: uid });
     if (newUser) {
       res.status(200).send({
         status: "success",

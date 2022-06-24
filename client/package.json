@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "http://127.0.0.1:5000",
+  "proxy": "https://itsshoptime.herokuapp.com",
   "version": "1.0.1",
   "private": true,
   "dependencies": {

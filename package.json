@@ -8,7 +8,7 @@
   "scripts": {
     "start": "NODE_ENV=production node app.js",
     "start:dev": "nodemon app",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && cd client && npm install && npm run build"
+    "heroku-postbuild": "NPM_PRODUCTION=false npm install && cd client && npm install && npm run build"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.3.0",

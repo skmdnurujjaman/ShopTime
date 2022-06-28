@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 
 //load env vars
 dotenv.config({ path: "./config/config.env" });
-
+const connectDb = require("./config/db");
 //load models
 const User = require("./models/User");
 const Product = require("./models/Product");
@@ -17,12 +17,7 @@ const Order = require("./models/Order");
 
 // Connect to DB
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
-});
+connectDb();
 
 //Read JSON files
 
